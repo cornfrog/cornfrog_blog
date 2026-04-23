@@ -1,7 +1,7 @@
 ---
 title: First Blog Update
 date: 2026-04-23T02:02:22Z
-description: First udpate for my blog!
+description: First update for my blog!
 tags: [fullstack, career, life]
 ---
 # Quick Little Update

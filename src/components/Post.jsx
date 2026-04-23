@@ -76,18 +76,20 @@ const Post = ({
                 <Box
                     sx={{
                         display: 'flex',
-                        justifyContent: 'space-between',
                         alignItems: 'center',
-                        mt: 'auto'
+                        gap: 3, // Fixed horizontal spacing between elements
+                        mt: 2   // Fixed vertical spacing from description
                     }}
                 >
                     <Typography
                         variant="caption"
                         sx={{
-                            fontWeight: 600,
+                            fontWeight: 700,
                             color: 'primary.main',
                             textTransform: 'uppercase',
-                            letterSpacing: '0.05em'
+                            letterSpacing: '0.05em',
+                            display: 'flex',
+                            alignItems: 'center'
                         }}
                     >
                         Read More →
@@ -96,6 +98,7 @@ const Post = ({
                         variant="caption"
                         sx={{
                             color: 'text.disabled',
+                            fontWeight: 500
                         }}
                     >
                         {post.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
